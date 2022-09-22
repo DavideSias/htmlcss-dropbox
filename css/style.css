@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.menu-container{
+    display: flex;
+    height: 4em;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-menu .logo{
+    width: 90%;
+    vertical-align: middle;
+  
+}
+
+.menu-container .nav-menu{
+    display: flex;
+}
+
+/* TODO FIXED NAV MENU */
+/* TODO BUTTON AND LINK STYLE */
+
+.nav-menu li{
+    list-style: none;
+    padding: 0 1em;
+    line-height: 2em;
+}
+
+.nav-menu a{
+    text-decoration: none;
+    color: black;
+}
+
+.top-title{
+    background-color: rgb(180, 208, 231);
+    padding-top: 3rem;
+}
+
+.big-container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.big-container h1{
+    font-size: 70px;
+    font-weight: 900;
+}
+
+.flex-container{
+    display: flex;
+    margin-top: 3rem;
+}
+
+.img-container{
+    position: relative;
+    flex-basis: 300%;
+}
+
+.jumbo{
+    width: 50em;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.text p{
+    line-height: 1.3em;
+}
+
+.text .btn, .cancel{
+    margin-top: 3rem;
+}
+
+.fa-solid{
+    margin: 3rem 0 1.5rem;
+    font-size: 50px;
+}
