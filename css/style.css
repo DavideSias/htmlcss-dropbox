@@ -287,3 +287,23 @@ body{
     text-decoration: none;
     color: black;
   }
+
+.flexbox-card{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 3rem;
+    row-gap: 2rem;
+}
+
+.box-card{
+    flex: 1 1 30%;
+}
+
+.box-card img{
+    width: 300px;
+}
+
+.box-card h3{
+    font-size: 22px;
+    margin-bottom: 2rem;
+}
