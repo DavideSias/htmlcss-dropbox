@@ -23,6 +23,7 @@ body{
     left: 0;
     right: 0;
     background-color: white;
+    border-bottom: 1px solid lightgray;
 }
 
 .nav-menu .logo{
@@ -52,6 +53,7 @@ body{
 .top-title{
     background-color: rgb(180, 208, 231);
     padding-top: 3rem;
+    margin-bottom: 10rem;
 }
 
 .big-container{
@@ -102,7 +104,7 @@ body{
 
 .mid-container{
     max-width: 1000px;
-    margin: 10rem auto 0;
+    margin: 0 auto 6rem;
 }
 
 .mid-container h2{
@@ -141,15 +143,14 @@ body{
 
 .subscription li{
     padding: 0.5rem 0;
-    font-size: 14px;
-    text
+    font-size: 0.9em;
 }
 
-.list-container li:first-child{
+.second-ul li:first-child{
     font-weight: 700;
 }
 
-.subscription h3{
+.team h3{
     font-size: 14px;
     text-align: center;
     font-weight: 400;
@@ -176,7 +177,7 @@ body{
     color: gray;
 }
 
-.btn-box{
+.subscription .btn-box{
     text-align: center;
     margin-top: 2rem;
 }
@@ -184,6 +185,11 @@ body{
     font-size: 14px;
     text-decoration: none;
     color: white;
+}
+
+.list-container .buy-now {
+    font-size: 14px;
+    color: blue;
 }
 
 .otherwise{
@@ -202,3 +208,45 @@ body{
 .fa-check{
     color: rgb(0, 97, 255);
 }
+
+.up-container{
+    margin-bottom: 3rem;
+}
+
+.bottom-container{
+    margin: 0 auto;
+}
+
+.border-container{
+    border: 1px solid lightgrey;
+}
+
+.enterprise-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 2rem;
+}
+
+.enterprise > h2{
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.first-paragraph{
+    margin-bottom: 3rem;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.second-paragraph{
+    font-size: 15px;
+}
+
+.btn.btn-sales{
+    height: max-content;
+    font-size: 14px;
+    padding: 0.8em 3em;
+    white-space: nowrap;
+}
+
