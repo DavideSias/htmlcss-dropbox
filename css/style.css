@@ -250,3 +250,43 @@ body{
     white-space: nowrap;
 }
 
+.partner-box{
+    width: 60%;
+}
+
+.img-partner{
+    width: 100%;
+    float: left;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .text-box {
+    float: left;
+    width: 35%;
+    padding: 4rem 0.5rem 0 2.5rem;
+  }
+
+  .text-box h3{
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+  }
+
+  .text-box p{
+    margin-bottom: 4rem;
+  }
+
+  .btn-white{
+    border: 1px solid black;
+    padding: 0.7rem 1rem;
+  }
+
+  .text-box a{
+    text-decoration: none;
+    color: black;
+  }
