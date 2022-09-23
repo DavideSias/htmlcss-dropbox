@@ -97,6 +97,108 @@ body{
 .btn{
     background-color: rgb(0, 97, 255);
     color: white;
-    padding: 0.8em 1em;
-    width: max-content;
+    padding: 0.5em 1em;
+}
+
+.mid-container{
+    max-width: 1000px;
+    margin: 10rem auto 0;
+}
+
+.mid-container h2{
+    font-size: 40px;
+    margin-bottom: 3rem;
+}
+
+.radio-left{
+    margin-left: 2rem;
+}
+
+.radio-btn{
+    margin-bottom: 3rem;
+}
+
+.card{
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    column-gap: 3rem;
+}
+
+.subscription{
+    flex: 1 1 100%;
+    border: 1px solid lightgray; 
+}
+
+.subscription ul{
+    list-style: none;
+    /* margin-bottom: 2rem; */
+}
+
+.list-container{
+    padding: 1.5rem 2rem;
+}
+
+.subscription li{
+    padding: 0.5rem 0;
+    font-size: 14px;
+    text
+}
+
+.list-container li:first-child{
+    font-weight: 700;
+}
+
+.subscription h3{
+    font-size: 14px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.team{
+    width: 100%;
+    border-bottom: 1px solid lightgray;
+    padding: 0.7rem 0;
+}
+
+.subscription .sub-type{
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+.subscription .price{
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.user-month{
+    color: gray;
+}
+
+.btn-box{
+    text-align: center;
+    margin-top: 2rem;
+}
+.btn-box a{
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+}
+
+.otherwise{
+    display: inline-block;
+    font-size: 14px;
+    margin: 2.5rem 0 3rem;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid lightgrey;
+}
+
+.icon{
+    font-size: 14px;
+    margin: 0;
+}
+
+.fa-check{
+    color: rgb(0, 97, 255);
 }
