@@ -293,6 +293,7 @@ body{
     flex-wrap: wrap;
     column-gap: 3rem;
     row-gap: 2rem;
+    margin-bottom: 10rem;
 }
 
 .box-card{
@@ -306,4 +307,8 @@ body{
 .box-card h3{
     font-size: 22px;
     margin-bottom: 2rem;
+}
+
+.business{
+    width: 70%
 }
