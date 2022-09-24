@@ -134,7 +134,6 @@ body{
 
 .subscription ul{
     list-style: none;
-    /* margin-bottom: 2rem; */
 }
 
 .list-container{
@@ -259,34 +258,34 @@ body{
     float: left;
 }
 
-.clearfix::after {
+.clearfix::after{
     content: "";
     clear: both;
     display: table;
-  }
+}
 
-  .text-box {
+.text-box{
     float: left;
     width: 35%;
     padding: 4rem 0.5rem 0 2.5rem;
-  }
+}
 
-  .text-box h3{
+.text-box h3{
     font-size: 22px;
     font-weight: 700;
     margin-bottom: 1.5rem;
-  }
+}
 
-  .text-box p{
+.text-box p{
     margin-bottom: 4rem;
-  }
+}
 
-  .btn-white{
+.btn-white{
     border: 1px solid black;
     padding: 0.7rem 1rem;
     text-decoration: none;
     color: black;
-  }
+}
 
 .flexbox-card{
     display: flex;
@@ -309,8 +308,8 @@ body{
     margin-bottom: 2rem;
 }
 
-.business{
-    width: 70%
+.main-text{
+    width: 60%
 }
 
 .sponsor{
@@ -391,4 +390,97 @@ body{
 
 .inner-content hr{
     width: 20%;
+}
+
+.business-bottom-container{
+    background-color: rgb(180, 208, 231);
+}
+
+.business-flex{
+    padding: 5em 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.business-btn{
+    margin-top: 1rem;
+}
+
+.btn-sponsor{
+    padding: 0.5rem 3rem;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+  }
+
+ .slogan-business{
+    color: rgb(97, 8, 43);
+ }
+
+ .faq-container{
+    margin-bottom: 10rem;
+ }
+
+ .faq{
+    padding: 3rem 0;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+ }
+
+ .faq-top{
+    border-top: 1px solid black;
+ }
+
+ .fa-chevron-down{
+    font-size: 15px;
+    padding: 0;
+    margin: 0 3rem;
+ }
+
+ footer{
+    background-color: black;
+ }
+
+ .foot-container{   
+     max-width: 1200px;
+     margin: auto;
+     color: white;
+     padding: 5rem 0 2rem;
+ }
+
+ .footer-list-container{
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .foot-list li{
+    padding: 0.5rem 0;
+    list-style: none;
+ }
+
+ .foot-list li:first-child{
+    font-size: 22px;
+    font-weight: 700;
+    padding: 1rem 0;
+ }
+
+ .foot-link{
+    text-decoration: none;
+    color: white;
+ }
+
+ .language hr{
+    width: 10%;
+ }
+
+.language{
+    margin-top: 6rem;
+    color:grey;
+}
+
+.foot-icon {
+    font-size: 15px;
 }
