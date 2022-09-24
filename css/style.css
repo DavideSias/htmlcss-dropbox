@@ -83,12 +83,12 @@ body{
     left: 0;
 }
 
-.text p{
-    line-height: 1.3em;
-}
-
 .text .btn-big, .cancel{
     margin-top: 3rem;
+}
+
+.btn-big{
+    width: fit-content;
 }
 
 .fa-solid{
@@ -311,4 +311,84 @@ body{
 
 .business{
     width: 70%
+}
+
+.sponsor{
+    display: flex;
+}
+
+.square-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 0 33%;
+}
+
+.big-square{
+    flex: 1 0 33%;
+}
+
+.square{
+    flex: 1 0 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square img{
+    position: absolute;
+    width: 50%;
+}
+  
+.square:after{
+    content: '';
+    display: block;
+    padding-bottom: 100%;
+}
+
+.square-color1{
+    background-color: rgb(162, 211, 155);
+    border: 15px solid rgb(209, 233, 205);
+}
+.square-color2{
+    background-color: rgb(97, 8, 43);
+}
+.square-color3{
+    background-color: rgb(0, 147, 206);
+}
+.square-color4{
+    background-color: rgb(255, 28, 28)
+}
+.square-color5{
+    background-color: rgb(245, 245, 245);
+}
+.square-color6{
+    background-color: rgb(213, 0, 31)
+}
+.square-color7{
+    background-color: rgb(180, 208, 231);
+}
+.square-color8{
+    background-color: rgb(13, 36, 129)
+}
+.square-color9{
+    background-color: rgb(255, 216, 48);
+}
+
+.designit-black{
+    width: 40%;
+    margin-bottom: 3rem;
+}
+
+.inner-content{
+    padding: 4rem 3rem;
+}
+
+.inner-content p{
+    padding-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.inner-content hr{
+    width: 20%;
 }
