@@ -46,7 +46,7 @@ body{
     color: black;
 }
 
-.btn.btn-little{
+.btn-blue.btn-little{
     color: white;
 }
 
@@ -83,23 +83,28 @@ body{
     left: 0;
 }
 
-.text .btn-big, .cancel{
+.text .cancel{
     margin-top: 3rem;
 }
 
-.btn-big{
-    width: fit-content;
-}
-
-.fa-solid{
-    margin: 3rem 0 1.5rem;
+.fa-arrow-down{
+    margin: 4rem 0 1.5rem;
     font-size: 50px;
+    color: black;
 }
 
-.btn{
+.btn-blue{
     background-color: rgb(0, 97, 255);
     color: white;
     padding: 0.5em 1em;
+}
+
+.btn-blue.btn-big{
+    text-decoration: none;
+}
+
+.btn-top{
+    margin-top: 3rem;
 }
 
 .mid-container{
@@ -242,7 +247,7 @@ body{
     font-size: 15px;
 }
 
-.btn.btn-sales{
+.btn-blue.btn-sales{
     height: max-content;
     font-size: 14px;
     padding: 0.8em 3em;
@@ -483,4 +488,22 @@ body{
 
 .foot-icon {
     font-size: 15px;
+    margin-top: 3rem;
+}
+
+/* hover style */
+
+.btn-blue:hover{
+    background-color: rgba(0, 97, 255, 0.7);
+    cursor: pointer;
+}
+
+.btn-white:hover{
+    background-color: rgb(0, 97, 255);
+    color: white;
+    border: 1px solid rgb(0, 97, 255);
+}
+
+.btn-sponsor:hover{
+    box-shadow: 5px 5px 18px #888888;
 }
