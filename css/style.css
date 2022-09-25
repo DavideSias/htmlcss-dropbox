@@ -16,7 +16,6 @@ body{
     display: flex;
     height: 4em;
     justify-content: space-between;
-    align-items: center;
     position: fixed;
     z-index: 99;
     top: 0;
@@ -33,11 +32,12 @@ body{
 
 .menu-container .nav-menu{
     display: flex;
+    height: 100%;
 }
 
 .nav-menu li{
     list-style: none;
-    padding: 0 1em;
+    margin: 1em 1em 0 1em;
     line-height: 2em;
 }
 
@@ -506,4 +506,12 @@ body{
 
 .btn-sponsor:hover{
     box-shadow: 5px 5px 18px #888888;
+}
+
+.foot-link:hover{
+    text-decoration: underline;
+}
+
+.nav-menu li:hover{
+    border-bottom: 1px solid rgb(0, 97, 255);
 }
