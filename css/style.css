@@ -416,70 +416,81 @@ body{
     text-decoration: none;
     color: black;
     background-color: white;
-  }
+}
 
- .slogan-business{
+.slogan-business{
     color: rgb(97, 8, 43);
- }
+}
 
- .faq-container{
+.faq-container{
     margin-bottom: 10rem;
- }
+}
 
- .faq{
+.faq{
     padding: 3rem 0;
-    border-bottom: 1px solid black;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-weight: 700;
- }
+    flex-wrap: wrap;
+}
 
- .faq-top{
-    border-top: 1px solid black;
- }
+.faq, .ask{
+    border-bottom: 1px solid black;
+}
 
- .fa-chevron-down{
+.fa-chevron-down{
     font-size: 15px;
     padding: 0;
     margin: 0 3rem;
- }
+}
 
- footer{
+.lorem{
+    padding: 2rem 0;
+    display: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.faq:hover .lorem{
+    display: inline-block;
+}
+
+footer{
     background-color: black;
- }
+}
 
- .foot-container{   
-     max-width: 1200px;
-     margin: auto;
-     color: white;
-     padding: 5rem 0 2rem;
- }
+.foot-container{   
+    max-width: 1200px;
+    margin: auto;
+    color: white;
+    padding: 5rem 0 2rem;
+}
 
- .footer-list-container{
+.footer-list-container{
     display: flex;
     justify-content: space-between;
- }
+}
 
- .foot-list li{
+.foot-list li{
     padding: 0.5rem 0;
     list-style: none;
- }
+}
 
- .foot-list li:first-child{
+.foot-list li:first-child{
     font-size: 22px;
     font-weight: 700;
     padding: 1rem 0;
- }
+}
 
- .foot-link{
+.foot-link{
     text-decoration: none;
     color: white;
- }
+}
 
- .language hr{
+.language hr{
     width: 10%;
- }
+}
 
 .language{
     margin-top: 6rem;
@@ -491,7 +502,7 @@ body{
     margin-top: 3rem;
 }
 
-/* hover style */
+/* hover link and buttons style */
 
 .btn-blue:hover{
     background-color: rgba(0, 97, 255, 0.7);
