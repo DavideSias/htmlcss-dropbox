@@ -38,7 +38,7 @@ body{
 .nav-menu li{
     list-style: none;
     margin: 1em 1em 0 1em;
-    line-height: 2em;
+    line-height: 2;
 }
 
 .nav-menu a{
@@ -140,6 +140,61 @@ body{
 .subscription ul{
     list-style: none;
 }
+
+.users li{
+    display: flex;
+}
+
+.subscription .utente::before{
+    content: '\f007';
+    display: block;
+    margin-right: 0.5rem;
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    line-height: 1.2;
+}
+
+.subscription .folder::before{
+    content: '\f07b';
+    display: block;
+    margin-right: 0.5rem;
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    line-height: 1.2;
+}
+
+.subscription .share::before{
+    content: '\f1e0';
+    display: block;
+    margin-right: 0.5rem;
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    line-height: 1.2;
+}
+
+.subscription .utenti3::before{
+    content: '\f0c0';
+    display: block;
+    margin-right: 0.5rem;
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    line-height: 1.2;
+}
+
+.subscription .check::before{
+    content: '\f00c';
+    display: block;
+    margin-right: 0.5rem;
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    line-height: 1.5;
+    color: rgb(0, 97, 255);
+}
+
+
+
+
+
 
 .list-container{
     padding: 1.5rem 2rem;
